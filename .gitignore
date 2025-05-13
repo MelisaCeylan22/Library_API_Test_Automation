@@ -1,0 +1,6 @@
+# Genel dışlamalar
+*.log
+.env
+
+# API klasöründeki node_modules
+API/node_modules/
