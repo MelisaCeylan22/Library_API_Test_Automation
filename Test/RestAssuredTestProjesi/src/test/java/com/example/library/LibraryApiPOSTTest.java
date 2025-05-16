@@ -13,7 +13,7 @@ public class LibraryApiPOSTTest {
         // API'nin çalıştığı base URL
         String baseUrl = "http://localhost:8080/books";
 
-        // Gönderilecek kitap verisi (Java 11 için normal string)
+        // Gönderilecek kitap verisi
         String requestBody = "{\n" +
                 "  \"Kitapadi\": \"ANA\",\n" +
                 "  \"Yazar\": \"Maksim Gorki\",\n" +
